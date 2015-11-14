@@ -9,12 +9,14 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Welcome</title>
     </head>
     <body>
         <h1>Welcome ${param.username}</h1>
         <form action="HelloServlet" method="GET">
             <input type="submit" value="Logout">  
         </form>
+        <br/><a href='createpost.jsp'>Create Post</a><br/>
+        <a href='viewPosts.jsp'>View Posts</a>
     </body>
 </html>

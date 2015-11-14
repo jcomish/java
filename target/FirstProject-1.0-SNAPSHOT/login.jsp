@@ -13,10 +13,10 @@
     </head>
     <body>
         <h2>Login</h2>
-        <p>${message}</p>
+        <p style="color:red">${message}</p>
         <form action="HelloServlet" method="POST">
             <p>Username:<p> <input type="text" name="username">
-            <p>Password:<p> <input type="password" name="password">
+            <p>Password:<p> <input type="password" name="password"><br/>
             <input type="submit">  
         </form>
     </body>
